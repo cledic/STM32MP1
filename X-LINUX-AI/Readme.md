@@ -6,6 +6,10 @@ Ma la prima cosa da fare è seguire [questo link](https://wiki.st.com/stm32mpu/w
 
 La scrittura dell'immagine sulla SDCard avviene tramite il programma [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html). Quello che ho utilizzato io è la versione 2.4.0
 
-In pratica, la board viene riavviata in modalità *DFU* (BOOT= e BOOT2 su *OFF*) e poi fatta collegare al CubeProgrammer che provvederà alla scrittura dell'immagine scaricata.
+In pratica la board viene riavviata in modalità **DFU** (switch *BOOT0* e *BOOT2* su **OFF**) e poi fatta collegare al **STM32CubeProgrammer** che provvederà alla scrittura dell'immagine scaricata. Io ho eseguito l'installazione usando un PC con windows8 e non ho avuto problemi. 
+
+La board dovrà essere collegata con un cavo "USB Type A to Type C" per l'alimentazione, ed un cavo "USB Type A to Type C" per il download dell'immagine.
+
+La seriale è disponibile tramite il connettore "USB ST-Link".
 
 
