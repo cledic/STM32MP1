@@ -2,7 +2,10 @@
 
 Il link da seguire per l'installazione di questo package è il seguente: [X-LINUX-AI](https://wiki.st.com/stm32mpu/wiki/X-LINUX-AI_OpenSTLinux_Expansion_Package#Configure_the_AI_OpenSTLinux_package_repository)
 
-Ma la prima cosa da fare è seguire [questo link](https://wiki.st.com/stm32mpu/wiki/Getting_started/STM32MP1_boards/STM32MP157x-DK2/Let%27s_start/Populate_the_target_and_boot_the_image) per scaricare ed installare l'ultima immagine disponibile; quella che ho scaricato è la seguente: "en.FLASH-stm32mp1-openstlinux-5-4-dunfell-mp1-20-06-24.tar.xz"
+La descrizione del package la si può trovare [qui](https://www.st.com/en/embedded-software/x-linux-ai.html?ecmp=tt17172_gl_enews_aug2020&cid=stmDM32396&bid=333380117&uid=uuVB07gLbgb9q2s894UsErJne1j82j1X5MLBcHlJc00=)
+
+# *Aggiornare l'immagine della Board*
+La prima cosa da fare è seguire [questo link](https://wiki.st.com/stm32mpu/wiki/Getting_started/STM32MP1_boards/STM32MP157x-DK2/Let%27s_start/Populate_the_target_and_boot_the_image) per scaricare ed installare l'ultima immagine disponibile; quella che ho scaricato è la seguente: "en.FLASH-stm32mp1-openstlinux-5-4-dunfell-mp1-20-06-24.tar.xz"
 
 La scrittura dell'immagine sulla SDCard avviene tramite il programma [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html). Quello che ho utilizzato io è la versione 2.4.0
 
@@ -10,6 +13,9 @@ In pratica la board viene riavviata in modalità **DFU** (switch *BOOT0* e *BOOT
 
 La board dovrà essere collegata con un cavo "USB Type A to Type C" per l'alimentazione, ed un cavo "USB Type A to Type C" per il download dell'immagine.
 
-La seriale è disponibile tramite il connettore "USB ST-Link".
+La **console** seriale è disponibile tramite il connettore USB "USB ST-Link".
 
+Una volta terminata l'installazione dell'immagine e ripristinati i due siwtch su **ON**, si deve collegare la board ad Internet e seguire le istruzioni di [X-LINUX-AI](https://wiki.st.com/stm32mpu/wiki/X-LINUX-AI_OpenSTLinux_Expansion_Package#Configure_the_AI_OpenSTLinux_package_repository) per installare il package.
+
+Per il collegamento con il **WiFi** ho seguito [queste indicazioni](https://wiki.somlabs.com/index.php/Connecting_to_WiFi_network_on_VisionSOM-STM32MP1)
 
