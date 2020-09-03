@@ -15,7 +15,7 @@ La board dovrà essere collegata con un cavo "USB Type A to Type C" per l'alimen
 
 La **console** seriale è disponibile tramite il connettore USB "USB ST-Link".
 
-Una volta terminata l'installazione dell'immagine e ripristinati i due siwtch su **ON**, si deve collegare la board ad Internet e seguire le istruzioni di [X-LINUX-AI](https://wiki.st.com/stm32mpu/wiki/X-LINUX-AI_OpenSTLinux_Expansion_Package#Configure_the_AI_OpenSTLinux_package_repository) per installare il package.
+Una volta terminata l'installazione dell'immagine e ripristinati i due siwtch su **ON**, si deve riavviare e collegare la board ad Internet, e seguire le istruzioni di [X-LINUX-AI](https://wiki.st.com/stm32mpu/wiki/X-LINUX-AI_OpenSTLinux_Expansion_Package#Configure_the_AI_OpenSTLinux_package_repository) per installare il package.
 
 Per il collegamento con il **WiFi** ho seguito [queste indicazioni](https://wiki.somlabs.com/index.php/Connecting_to_WiFi_network_on_VisionSOM-STM32MP1)
 
