@@ -17,5 +17,8 @@ La **console** seriale è disponibile tramite il connettore USB "USB ST-Link".
 
 Una volta terminata l'installazione dell'immagine e ripristinati i due siwtch su **ON**, si deve riavviare e collegare la board ad Internet, e seguire le istruzioni di [X-LINUX-AI](https://wiki.st.com/stm32mpu/wiki/X-LINUX-AI_OpenSTLinux_Expansion_Package#Configure_the_AI_OpenSTLinux_package_repository) per installare il package.
 
+Una volta installato il package e riavviata la board, il "weston menu" si sarà ampliato delle App di AI.
+
 Per il collegamento con il **WiFi** ho seguito [queste indicazioni](https://wiki.somlabs.com/index.php/Connecting_to_WiFi_network_on_VisionSOM-STM32MP1)
 
+A questo [link](https://wiki.st.com/stm32mpu/wiki/X-LINUX-AI_application_samples_zoo) si possono trovare i script del pacchetto.
